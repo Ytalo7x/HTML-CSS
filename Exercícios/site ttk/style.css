@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+summary{
+    all: unset;
+    padding: 16px;
+    color: darkgray;
+    background-color: rgb(25, 36, 36);
+    width: 100%;
+    cursor: pointer;
+}
+
+details{
+    background-color: rgb(12, 11, 11);
+    color: white;
+}
+
+ul{
+    padding-bottom: 16px;
+    font-size: 0.8rem;
+}
+
+li+li{
+    margin-top: 0.5rem;
+}
+
+a{
+    color: hsl(0, 100%, 99%);
+    text-decoration: none; /*tira o tracinho de baixo deixa a palavra normal*/
+}

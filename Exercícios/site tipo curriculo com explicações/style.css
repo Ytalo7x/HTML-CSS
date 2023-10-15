@@ -1,0 +1,59 @@
+@charset "UFT-8";
+body{
+  color: rgb(58, 233, 67);
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    display: flex; /* faz os textos ou listas o ul ficar do lado um do outro*/
+    justify-content: space-between;
+    list-style-type: none;/*tira as bolinhas da lista*/
+    padding: 16px; /*margem do topo, abixar o texto*/
+}
+
+a {
+    color: rgb(81, 11, 212);
+    text-decoration: none;/*tira o tracinho de baixo deixa a palavra normal*/
+}
+
+header img{ /*editando o tamanho da imagem pelo css e deixando redonda e o ultimo colorindo borda*/
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    border: 5px solid #1b64eb;
+}
+
+.center /*.center ou qualquer "." com palavra é o que o div selecionou ou especificou*/ {
+
+      text-align: center; /*alinhar a imagem ao centro como se fosse texto,declarando div class=center e vindo aqui pro CSS e .center*/
+}
+h1{
+    color: rgb(29, 205, 236);
+}
+
+footer img{ /* especificando qual parte do footer quero estilizar, altura e largura,no caso a imagem do instagram*/
+    width: 60px;
+    height: 60px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a{ /* margem do dentro do footer e texto no centro*/
+    margin: 20px;
+    text-align: center;
+}
+
+footer p{ /*margem da legenda no caso o p, top é para subir ou descer a legenda*/
+    margin-top: 2px
+}
+
+.conteiner{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color: #28b0f0;
+}

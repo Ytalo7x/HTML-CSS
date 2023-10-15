@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(121, 111, 111);
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px ;
+            box-shadow: 6px 6px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        nav{
+            background-color: rgb(61, 61, 61);
+            padding: 5px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(83, 170, 137);
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(110, 109, 109);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0%;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body> 
+    <header><!--cabeçalho-->
+        <h1>Meu site</h1>
+        <nav><!--menus ou navegação-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+        
+    </header>
+
+    <main><!--o conteudo do site-->
+        <section id="noticias">
+            <p>Esportes e Tecnologia</p>
+            <article>
+                <h2>Notícia sobre o Brasi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ab unde ratione praesentium, eos esse dolor, iste explicabo a voluptatum exercitationem officia doloribus impedit. Recusandae fugiat nemo sunt perferendis sapiente.</p>
+                <aside>
+                    <p>Artigo escrito por Ytalo a máquina</p>
+                </aside>
+            <article>
+
+            </article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer><!--roda pé do site-->
+        <p>Desenvolvido por Ytalo</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>
